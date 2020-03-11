@@ -1,11 +1,11 @@
 import React from 'react';
 
-const ProductDetail = ({ product} ) => {  
+const ProductDetail = ({ product } ) => {  
     
     return (
         <div className="product padding-bottom">
             <div className="product_image">
-                <img width="600" height="655" src={product.src} alt={product.name} title={product.name} />                
+                <img width="600" height="655" src={product.image} alt={product.name} title={product.name} />                
             </div>
             <div className="summary">
                 <h1 className="product_title">{product.name}</h1>

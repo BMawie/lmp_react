@@ -10,6 +10,7 @@ import Contact from './components/routes/Contact';
 import Brands from './components/routes/Brands';
 import Deals from './components/routes/Deals';
 import ProductView from './components/routes/ProductView';
+import CarouselEditionView from './components/routes/CarouselEditionView';
 
 
 const NoMatchRoute = () => <div>404 Page</div>;
@@ -66,7 +67,8 @@ const App = () => {
                   <Route path="/contact">
                       <Contact website={website} />
                   </Route>
-                  <Route path="/product/:productId" exact component={ProductView}></Route>
+                  <Route path="/product/:productId" component={ProductView}></Route>
+                  <Route path="/carousel-edition" component={CarouselEditionView}></Route>
                   <Route path="/">
                       <Accueil website={website} />
                   </Route>

@@ -1,5 +1,5 @@
 import React from 'react';
-import ClassicCarousel from '../Carousel';
+import ClassicCarousel from '../carousel/ClassicCarousel';
 import Brands from '../Brands';
 
 
